@@ -1,0 +1,43 @@
+<form id='login' class="handyset-cal">
+  <div>
+    <div class="">
+      <h1>1 сет</h1>
+      <label for="s1Fscore">П1 счёт</label>
+      <input type="number" name="s1Fscore" min="0" max="7" step="1" value="0">
+      <label for="s1Sscore">П2 счёт</label>
+      <input type="number" name="s1Sscore" min="0" max="7" step="1" value="0">
+    </div>
+    <div class="">
+      <h1>2 сет</h1>
+      <label for="s2Fscore">П1 счёт</label>
+      <input type="number" name="s2Fscore" min="0" max="7" step="1" value="0">
+      <label for="s2Sscore">П2 счёт</label>
+      <input type="number" name="s2Sscore" min="0" max="7" step="1" value="0">
+    </div>
+    <div class="">
+      <h1>3 сет</h1>
+      <label for="s3Fscore">П1 счёт</label>
+      <input type="number" name="s3Fscore" min="0" max="7" step="1" value="0">
+      <label for="s3Sscore">П2 счёт</label>
+      <input type="number" name="s3Sscore" min="0" max="7" step="1" value="0">
+    </div>
+  </div>
+
+  <div>
+    <input type="radio" id="P1" name="player" value="P1">
+    <label for="P1">П1</label>
+    <input type="radio" id="P2" name="player" value="P2">
+    <label for="P2">П2</label>
+  </div>
+  <div>
+    <label for="quantity">Значение форы:</label>
+    <input type="number" id="HValue" name="quantity" value="1" step=".5">
+  </div>
+  <div>
+    <input type="submit" value="Расчитать">
+  </div>
+</form>
+
+<div id="here" class="result" >
+
+</div>

@@ -1,0 +1,45 @@
+<form id='login' class="handyset-cal">
+  <div class="firstSet">
+    <h1>Счёт в сете:</h1>
+    <label for="firstScore">П1 счёт:</label>
+    <select name="firstScore" id="firstScore">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    </select>
+    <label for="secondScore">П2 счёт:</label>
+    <select name="secondScore" id="secondScore">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    </select>
+  </div>
+
+  <div>
+    <input type="radio" id="{{ first_entry }}" name="vector" value="{{ first_entry }}">
+    <label for="{{ first_entry }}">{{ first_entry_text }}</label>
+    <input type="radio" id="{{ second_entry }}" name="vector" value="{{ second_entry }}">
+    <label for="{{ second_entry }}">{{ second_entry_text }}</label>
+  </div>
+  <div>
+    <label for="quantity">{{ bet_name }}:</label>
+    <input type="number" id="HValue" name="quantity" value="1" step=".5">
+  </div>
+  <div>
+    <input type="submit" value="Расчитать">
+  </div>
+</form>
+
+<div id="here" class="result" >
+
+</div>

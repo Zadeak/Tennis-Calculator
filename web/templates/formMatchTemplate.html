@@ -1,0 +1,107 @@
+
+<form id='login' class="handyset-cal ">
+  <div class="form-row">
+
+
+  <div class="form-group col-md-4">
+    <div class="firstSet">
+      <h1>1 сет:</h1>
+      <label for="s1Fscore">П1 счёт:</label>
+      <select name="s1Fscore" id="s1Fscore">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      </select>
+      <label for="s1Sscore">П2 счёт:</label>
+      <select name="s1Sscore" id="s1Sscore">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group col-md-4">
+    <div class="secondSet">
+      <h1>2 сет:</h1>
+      <label for="s2Fscore">П1 счёт:</label>
+      <select name="s2Fscore" id="s2Fscore">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      </select>
+      <label for="s2Sscore">П2 счёт:</label>
+      <select name="s2Sscore" id="s2Sscore">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group col-md-4">
+    <div class="thirdSet">
+      <h1>3 сет:</h1>
+      <label for="s3Fscore">П1 счёт:</label>
+      <select name="s3Fscore" id="s3Fscore">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      </select>
+      <label for="s3Sscore">П2 счёт:</label>
+      <select name="s3Sscore" id="s3Sscore">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      </select>
+    </div>
+  </div>
+
+</div>
+
+  <div class=form-group>
+    <input type="radio" id="{{ first_entry }}" name="vector" value="{{ first_entry }}">
+    <label for="{{ first_entry }}">{{ first_entry_text }}</label>
+    <input type="radio" id="{{ second_entry }}" name="vector" value="{{ second_entry }}">
+    <label for="{{ second_entry }}">{{ second_entry_text }}</label>
+  </div>
+  <div class="form-group">
+    <label for="quantity">{{ bet_name }}:</label>
+    <input type="number" id="HValue" name="quantity" value="1" step=".5">
+  </div>
+  <div class="form-group">
+    <input type="submit" value="Расчитать">
+  </div>
+</form>
+
+<div id="here" class="result" >
+
+</div>
